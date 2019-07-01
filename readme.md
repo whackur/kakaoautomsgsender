@@ -10,7 +10,12 @@ img 디렉터리 안에는 캡쳐 프로그램으로 기존 아이콘들을 대�
 
 코드 설명은 [영상](https://www.youtube.com/watch?v=oNjRH1Cz9k4)을 참고해주세요.
 
-# 설치 스크립트
+# 다운로드
+```
+git clone https://gitlab.com/Whackur/kakaoautomsgsender
+```
+
+# 모듈 설치 스크립트
 ```
 pip install opencv-python
 pip install pyperclip
