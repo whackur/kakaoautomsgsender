@@ -120,9 +120,6 @@ pyautogui.PAUSE = 0.5
 
 if __name__ == "__main__":
     (filter_keyword, init_number, repeat_number, my_msg) = initialize()
-    print('mymsg => ', my_msg)
-    print(type(my_msg))
-    print(my_msg)
     if len(my_msg) > 2:
         filter_friend(filter_keyword, init_number)
         send_msg(my_msg, repeat_number)
